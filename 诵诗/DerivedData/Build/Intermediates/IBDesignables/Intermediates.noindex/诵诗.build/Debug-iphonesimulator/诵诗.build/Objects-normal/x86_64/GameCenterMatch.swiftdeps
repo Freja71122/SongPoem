@@ -1,0 +1,515 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameCenterMatch"
+provides-nominal:
+- "006geDaHb15GameCenterMatchC"
+provides-member:
+- ["006geDaHb15GameCenterMatchC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- !private "??"
+- !private "ActionsFrom"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Data"
+- !private "GKLocalPlayer"
+- "GKTurnBasedMatch"
+- "GKTurnBasedParticipant"
+- "GameCenterMatch"
+- "Int"
+- "Match"
+- !private "RandomIdentifier"
+- "Result"
+- !private "StringLiteralType"
+depends-member:
+- !private ["006geDaHb6ActionC", "timeInterval"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "index"]
+- !private ["Sa", "mPlayer"]
+- !private ["Sa", "map"]
+- !private ["Sa", "max"]
+- !private ["Sa", "shift"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "identifier"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- !private ["s23BidirectionalCollectionP", "identifier"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "mPlayer"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "max"]
+- !private ["s23BidirectionalCollectionP", "shift"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s7CVarArgP", "currentParticipant"]
+- !private ["s7CVarArgP", "endMatchInTurn"]
+- !private ["s7CVarArgP", "endTurn"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "localPlayer"]
+- !private ["s7CVarArgP", "mPlayer"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "matchData"]
+- !private ["s7CVarArgP", "matchID"]
+- !private ["s7CVarArgP", "matchOutcome"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "participants"]
+- !private ["s7CVarArgP", "playerID"]
+- !private ["s7CVarArgP", "saveCurrentTurn"]
+- !private ["s7CVarArgP", "shift"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeInterval"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "filter"]
+- !private ["s10CollectionP", "identifier"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "mPlayer"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "max"]
+- !private ["s10CollectionP", "shift"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "currentParticipant"]
+- !private ["s28CustomDebugStringConvertibleP", "endMatchInTurn"]
+- !private ["s28CustomDebugStringConvertibleP", "endTurn"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "mPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "matchData"]
+- !private ["s28CustomDebugStringConvertibleP", "matchID"]
+- !private ["s28CustomDebugStringConvertibleP", "matchOutcome"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "participants"]
+- !private ["s28CustomDebugStringConvertibleP", "playerID"]
+- !private ["s28CustomDebugStringConvertibleP", "saveCurrentTurn"]
+- !private ["s28CustomDebugStringConvertibleP", "shift"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "mPlayer"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "shift"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "currentParticipant"]
+- !private ["s23CustomStringConvertibleP", "endMatchInTurn"]
+- !private ["s23CustomStringConvertibleP", "endTurn"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localPlayer"]
+- !private ["s23CustomStringConvertibleP", "mPlayer"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "matchData"]
+- !private ["s23CustomStringConvertibleP", "matchID"]
+- !private ["s23CustomStringConvertibleP", "matchOutcome"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "participants"]
+- !private ["s23CustomStringConvertibleP", "playerID"]
+- !private ["s23CustomStringConvertibleP", "saveCurrentTurn"]
+- !private ["s23CustomStringConvertibleP", "shift"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "filter"]
+- !private ["s9DecodableP", "index"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "mPlayer"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "max"]
+- !private ["s9DecodableP", "shift"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "filter"]
+- !private ["s9EncodableP", "index"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "mPlayer"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "max"]
+- !private ["s9EncodableP", "shift"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "currentParticipant"]
+- !private ["s9EquatableP", "endMatchInTurn"]
+- !private ["s9EquatableP", "endTurn"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "localPlayer"]
+- !private ["s9EquatableP", "mPlayer"]
+- !private ["s9EquatableP", "matchData"]
+- !private ["s9EquatableP", "matchID"]
+- !private ["s9EquatableP", "matchOutcome"]
+- !private ["s9EquatableP", "participants"]
+- !private ["s9EquatableP", "playerID"]
+- !private ["s9EquatableP", "saveCurrentTurn"]
+- !private ["s9EquatableP", "timeInterval"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "identifier"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "mPlayer"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "max"]
+- !private ["s25ExpressibleByArrayLiteralP", "shift"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "enumerated"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So12GKBasePlayerC", "localPlayer"]
+- !private ["So12GKBasePlayerC", "playerID"]
+- !private ["So13GKLocalPlayerC", "localPlayer"]
+- !private ["So13GKLocalPlayerC", "playerID"]
+- !private ["So8GKPlayerC", "localPlayer"]
+- !private ["So8GKPlayerC", "playerID"]
+- !private ["So19GKSavedGameListenerP", "localPlayer"]
+- !private ["So19GKSavedGameListenerP", "playerID"]
+- !private ["So16GKTurnBasedMatchC", "currentParticipant"]
+- !private ["So16GKTurnBasedMatchC", "endMatchInTurn"]
+- !private ["So16GKTurnBasedMatchC", "endTurn"]
+- !private ["So16GKTurnBasedMatchC", "matchData"]
+- !private ["So16GKTurnBasedMatchC", "matchID"]
+- !private ["So16GKTurnBasedMatchC", "participants"]
+- !private ["So16GKTurnBasedMatchC", "saveCurrentTurn"]
+- !private ["So22GKTurnBasedParticipantC", "mPlayer"]
+- !private ["So22GKTurnBasedParticipantC", "matchOutcome"]
+- !private ["006geDaHb4GameC", "add"]
+- !private ["006geDaHb15GameCenterMatchC", "ActionsFrom"]
+- ["006geDaHb15GameCenterMatchC", "Bool"]
+- !private ["006geDaHb15GameCenterMatchC", "Data"]
+- !private ["006geDaHb15GameCenterMatchC", "GKLocalPlayer"]
+- ["006geDaHb15GameCenterMatchC", "GKTurnBasedMatch"]
+- ["006geDaHb15GameCenterMatchC", "GKTurnBasedParticipant"]
+- ["006geDaHb15GameCenterMatchC", "Int"]
+- !private ["006geDaHb15GameCenterMatchC", "RandomIdentifier"]
+- ["006geDaHb15GameCenterMatchC", "Result"]
+- !private ["006geDaHb15GameCenterMatchC", "actions"]
+- ["006geDaHb15GameCenterMatchC", "currentPlayerIndex"]
+- ["006geDaHb15GameCenterMatchC", "deinit"]
+- ["006geDaHb15GameCenterMatchC", "endMatch"]
+- !private ["006geDaHb15GameCenterMatchC", "game"]
+- ["006geDaHb15GameCenterMatchC", "init"]
+- ["006geDaHb15GameCenterMatchC", "isServer"]
+- !private ["006geDaHb15GameCenterMatchC", "localPlayerIdentifier"]
+- !private ["006geDaHb15GameCenterMatchC", "matchData"]
+- ["006geDaHb15GameCenterMatchC", "nextParticipantArray"]
+- !private ["006geDaHb15GameCenterMatchC", "players"]
+- ["006geDaHb15GameCenterMatchC", "saveTurn"]
+- ["006geDaHb15GameCenterMatchC", "turnBasedMatch"]
+- ["006geDaHb15GameCenterMatchC", "update"]
+- !private ["s8HashableP", "currentParticipant"]
+- !private ["s8HashableP", "endMatchInTurn"]
+- !private ["s8HashableP", "endTurn"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "localPlayer"]
+- !private ["s8HashableP", "mPlayer"]
+- !private ["s8HashableP", "matchData"]
+- !private ["s8HashableP", "matchID"]
+- !private ["s8HashableP", "matchOutcome"]
+- !private ["s8HashableP", "participants"]
+- !private ["s8HashableP", "playerID"]
+- !private ["s8HashableP", "saveCurrentTurn"]
+- !private ["s8HashableP", "timeInterval"]
+- !private ["006geDaHb5MatchC", "ActionsFrom"]
+- ["006geDaHb5MatchC", "Bool"]
+- !private ["006geDaHb5MatchC", "Data"]
+- !private ["006geDaHb5MatchC", "GKLocalPlayer"]
+- ["006geDaHb5MatchC", "GKTurnBasedMatch"]
+- ["006geDaHb5MatchC", "GKTurnBasedParticipant"]
+- ["006geDaHb5MatchC", "Int"]
+- !private ["006geDaHb5MatchC", "RandomIdentifier"]
+- ["006geDaHb5MatchC", "Result"]
+- !private ["006geDaHb5MatchC", "actions"]
+- ["006geDaHb5MatchC", "currentPlayerIndex"]
+- ["006geDaHb5MatchC", "endMatch"]
+- !private ["006geDaHb5MatchC", "game"]
+- ["006geDaHb5MatchC", "init"]
+- ["006geDaHb5MatchC", "isServer"]
+- !private ["006geDaHb5MatchC", "localPlayerIdentifier"]
+- !private ["006geDaHb5MatchC", "matchData"]
+- ["006geDaHb5MatchC", "nextParticipantArray"]
+- !private ["006geDaHb5MatchC", "players"]
+- ["006geDaHb5MatchC", "saveTurn"]
+- ["006geDaHb5MatchC", "turnBasedMatch"]
+- ["006geDaHb5MatchC", "update"]
+- ["006geDaHb5MatchC", ""]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "identifier"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "mPlayer"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "max"]
+- !private ["s17MutableCollectionP", "shift"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "timeInterval"]
+- !private ["So8NSObjectC", "currentParticipant"]
+- !private ["So8NSObjectC", "endMatchInTurn"]
+- !private ["So8NSObjectC", "endTurn"]
+- !private ["So8NSObjectC", "localPlayer"]
+- !private ["So8NSObjectC", "mPlayer"]
+- !private ["So8NSObjectC", "matchData"]
+- !private ["So8NSObjectC", "matchID"]
+- !private ["So8NSObjectC", "matchOutcome"]
+- !private ["So8NSObjectC", "participants"]
+- !private ["So8NSObjectC", "playerID"]
+- !private ["So8NSObjectC", "saveCurrentTurn"]
+- !private ["So8NSObjectC", "timeInterval"]
+- !private ["So16NSObjectProtocolP", "currentParticipant"]
+- !private ["So16NSObjectProtocolP", "endMatchInTurn"]
+- !private ["So16NSObjectProtocolP", "endTurn"]
+- !private ["So16NSObjectProtocolP", "localPlayer"]
+- !private ["So16NSObjectProtocolP", "mPlayer"]
+- !private ["So16NSObjectProtocolP", "matchData"]
+- !private ["So16NSObjectProtocolP", "matchID"]
+- !private ["So16NSObjectProtocolP", "matchOutcome"]
+- !private ["So16NSObjectProtocolP", "participants"]
+- !private ["So16NSObjectProtocolP", "playerID"]
+- !private ["So16NSObjectProtocolP", "saveCurrentTurn"]
+- !private ["So16NSObjectProtocolP", "timeInterval"]
+- !private ["Sq", "enumerated"]
+- !private ["Sq", "map"]
+- !private ["006geDaHb6PlayerC", "identifier"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "identifier"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "mPlayer"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "max"]
+- !private ["s22RandomAccessCollectionP", "shift"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- !private ["s26RangeReplaceableCollectionP", "identifier"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "mPlayer"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "max"]
+- !private ["s26RangeReplaceableCollectionP", "shift"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "matchOutcome"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["006geDaHb6ResultO", "matchOutcome"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "identifier"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "mPlayer"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "max"]
+- !private ["s8SequenceP", "shift"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "identifier"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "mPlayer"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "max"]
+- !private ["s14_ArrayProtocolP", "shift"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "enumerated"]
+- !private ["s23_BidirectionalIndexableP", "filter"]
+- !private ["s23_BidirectionalIndexableP", "identifier"]
+- !private ["s23_BidirectionalIndexableP", "index"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "mPlayer"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "max"]
+- !private ["s23_BidirectionalIndexableP", "shift"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "identifier"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "mPlayer"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "max"]
+- !private ["s24_DestructorSafeContainerP", "shift"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s10_IndexableP", "enumerated"]
+- !private ["s10_IndexableP", "filter"]
+- !private ["s10_IndexableP", "identifier"]
+- !private ["s10_IndexableP", "index"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "mPlayer"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "max"]
+- !private ["s10_IndexableP", "shift"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "enumerated"]
+- !private ["s14_IndexableBaseP", "filter"]
+- !private ["s14_IndexableBaseP", "identifier"]
+- !private ["s14_IndexableBaseP", "index"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "mPlayer"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "max"]
+- !private ["s14_IndexableBaseP", "shift"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentParticipant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endMatchInTurn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endTurn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matchData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matchID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matchOutcome"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "participants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playerID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveCurrentTurn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeInterval"]
+- !private ["s17_MutableIndexableP", "enumerated"]
+- !private ["s17_MutableIndexableP", "filter"]
+- !private ["s17_MutableIndexableP", "identifier"]
+- !private ["s17_MutableIndexableP", "index"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "mPlayer"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s17_MutableIndexableP", "max"]
+- !private ["s17_MutableIndexableP", "shift"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "mPlayer"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "shift"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "enumerated"]
+- !private ["s22_RandomAccessIndexableP", "filter"]
+- !private ["s22_RandomAccessIndexableP", "identifier"]
+- !private ["s22_RandomAccessIndexableP", "index"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "mPlayer"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "max"]
+- !private ["s22_RandomAccessIndexableP", "shift"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "enumerated"]
+- !private ["s26_RangeReplaceableIndexableP", "filter"]
+- !private ["s26_RangeReplaceableIndexableP", "identifier"]
+- !private ["s26_RangeReplaceableIndexableP", "index"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "mPlayer"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "max"]
+- !private ["s26_RangeReplaceableIndexableP", "shift"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+depends-nominal:
+- !private "006geDaHb6ActionC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So12GKBasePlayerC"
+- !private "So13GKLocalPlayerC"
+- !private "So8GKPlayerC"
+- !private "So19GKSavedGameListenerP"
+- !private "So16GKTurnBasedMatchC"
+- !private "So22GKTurnBasedParticipantC"
+- !private "006geDaHb4GameC"
+- "006geDaHb15GameCenterMatchC"
+- !private "s8HashableP"
+- "006geDaHb5MatchC"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "Sq"
+- !private "006geDaHb6PlayerC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "006geDaHb6ResultO"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yuannnn/SongShi 2/\u8BF5\u8BD7/DerivedData/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yuannnn/SongShi 2/\u8BF5\u8BD7/SQLiteBridge.h"
+- "/Users/yuannnn/SongShi 2/\u8BF5\u8BD7/DerivedData/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yuannnn/SongShi 2/\u8BF5\u8BD7/DerivedData/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yuannnn/SongShi 2/\u8BF5\u8BD7/DerivedData/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "2d0feec8468ec9f8085fe9b6e4147859"
