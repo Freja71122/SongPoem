@@ -356,7 +356,7 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
     
     @objc private func textFieldDidChange(notification: NSNotification){
         let textField = notification.object as! UITextField
-        
+        self.checkButton.setBackgroundImage(UIImage(named: "检验.png"), for: UIControlState.normal)
         if textField.text != blankFrame{
             
             self.poemlabel.text = textField.text
@@ -476,17 +476,45 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
         if blank != nil  {//判断输入了完整的一句
             let startPosition = blank!.startPositionOf(sub: fillIn!)
             let endPosition = blank!.endPositionOf(sub: fillIn!)
-            let indSubStart = blank!.index(blank!.startIndex, offsetBy: startPosition-1)
-            let indSubEnd = blank!.index(blank!.startIndex, offsetBy: endPosition)
-            if ("\u{4E00}" <= blank!.characters[indSubStart]  && blank![indSubStart] <= "\u{9FA5}") {
-                judg = false
+            judg = true
+            if startPosition != 0{
+                if let indSubStart = blank!.index(blank!.startIndex, offsetBy: startPosition-1, limitedBy: blank!.endIndex){
+                    if ("\u{4E00}" <= blank!.characters[indSubStart]  && blank![indSubStart] <= "\u{9FA5}") {
+                        judg = false
+                    }
+                    
+                }
             }
-            else if ("\u{4E00}" <= blank![indSubEnd]  && blank![indSubEnd] <= "\u{9FA5}") {
-                judg = false
+            if let indSubEnd = blank!.index(blank!.startIndex, offsetBy: endPosition, limitedBy: blank!.endIndex){
+                if ("\u{4E00}" <= blank![indSubEnd]  && blank![indSubEnd] <= "\u{9FA5}") {
+                    judg = false
+                }
+                
             }
-            else {//两边都是标点
-                judg = true
-            }
+//            if let indSubStart = blank!.index(blank!.startIndex, offsetBy: startPosition-1, limitedBy: blank!.endIndex){
+//                if ("\u{4E00}" <= blank!.characters[indSubStart]  && blank![indSubStart] <= "\u{9FA5}") {
+//                    judg = false
+//                }
+//                else if let indSubEnd = blank!.index(blank!.startIndex, offsetBy: endPosition, limitedBy: blank!.endIndex){
+//                    if ("\u{4E00}" <= blank![indSubEnd]  && blank![indSubEnd] <= "\u{9FA5}") {
+//                        judg = false
+//                    }
+//                    
+//                }
+//                
+//            }
+//            if let indSubEnd = blank!.index(blank!.startIndex, offsetBy: endPosition, limitedBy: blank!.endIndex){
+//                if ("\u{4E00}" <= blank![indSubEnd]  && blank![indSubEnd] <= "\u{9FA5}") {
+//                    judg = false
+//                }
+//            }
+            
+//            else if ("\u{4E00}" <= blank![indSubEnd]  && blank![indSubEnd] <= "\u{9FA5}") {
+//                judg = false
+//            }
+//            else {//两边都是标点
+//                judg = true
+//            }
         }
         
         if judg == true  {//回答对了以后首先要把时间清空成0
@@ -499,12 +527,12 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
 //            self.gameState.status = .turnRight
 //            self.gameState.playerScore[currentPlayerIndex] += 1
 //            self.//updateView()
-            let time: TimeInterval = 3.0
+//            let time: TimeInterval = 3.0
             
-            var dict:Dictionary<String,Any> = Dictionary()
-            Alamofire.request("http://101.132.142.238/test/HelloWorld?order=3&name=\(localPlayer)", method: .get).responseString { response in
+//            var dict:Dictionary<String,Any> = Dictionary()
+            Alamofire.request("http://101.132.142.238/test/HelloWorld?order=3&name=\(self.localPlayer)", method: .get).responseString { response in
                 let str = response.result.value!
-                dict = self.convertToDictionary(text: str)!
+                var dict = self.convertToDictionary(text: str)!
                 //print(dict)
                 self.statusLabel.text = "回答正确"
                 self.status1Label.text = String(describing: dict["score1"]!)
@@ -625,6 +653,8 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
             switch String(describing: dict["state"]!) {
             case "turn1":
                 do {
+                    self.status1Label.text = String(describing: dict["score1"]!)
+                    self.status2Label.text = String(describing: dict["score2"]!)
                     self.head1.isHidden=false;
                     self.head2.isHidden=true;
                     DispatchQueue.main.async(execute: {
@@ -652,6 +682,8 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
                 }
             case "turn2":
                 do {
+                    self.status1Label.text = String(describing: dict["score1"]!)
+                    self.status2Label.text = String(describing: dict["score2"]!)
                     self.head1.isHidden=true;
                     self.head2.isHidden=false;
                     DispatchQueue.main.async(execute: {
@@ -678,6 +710,8 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
                     }
                 }
             case "tie":
+                self.overgame("平局")
+            case "":
                 self.overgame("平局")
             case "win1":
                 if (self.localPlayer=="player1"){
@@ -750,7 +784,7 @@ class gamemViewController: UIViewController, UITextViewDelegate, UITextFieldDele
     
     func overgame(_ state: String){
         
-        
+        self.remForAll()
         let signOfSuccess = UILabel()
         signOfSuccess.text = state
         
