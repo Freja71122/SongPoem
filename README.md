@@ -35,9 +35,9 @@
 
 表现层就是前端的交互界面
 
-业务逻辑层以Spring boot作为后端框架，使用了JPA（Java Persistence API）作为ORM框架，也就是说我们不使用原生的SQL语句，而是使用JPA提供的Model类及Repertory来实现数据库的增删改查。同时JPA会根据Model类自动生成对应的数据库表。我们还使用了hibernate来进行数据库的访问
+业务逻辑层以Spring boot作为后端框架，使用了JPA（Java Persistence API）作为ORM框架，我们不使用原生的SQL语句，而是使用JPA提供的Model类及Repertory来实现数据库的增删改查。同时JPA会根据Model类自动生成对应的数据库表。我们还使用了hibernate来进行数据库的访问。
 
-数据访问层，使用mysql来存储基本信息，可以看到左下角是我们的er图，基本上分为三个表，数据，评论和诗歌存储表
+数据访问层，使用mysql来存储基本信息。
 
 
 ## 合作
