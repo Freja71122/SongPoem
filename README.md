@@ -40,7 +40,7 @@
 数据访问层，使用mysql来存储基本信息。
 
 ## 视频
-![](./video/demo.mov)
+![./video/demo.mov](./video/demo.mov)
 
 ## 合作
 林程、林琳
